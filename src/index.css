@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Lora:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --paper: #f5f0e8;
+  --paper2: #ede8dc;
+  --paper3: #e4ddd0;
+  --ink: #1c1a14;
+  --ink2: #4a4535;
+  --ink3: #8a8270;
+  --ink4: #b5ad9a;
+  --green: #2d5016;
+  --green-light: #4a7c2a;
+  --green-bg: #e8f0dc;
+  --amber: #8b5e00;
+  --amber-bg: #faf0d8;
+  --blue: #1a3a5c;
+  --blue-bg: #dde8f4;
+  --red: #7a1e1e;
+  --red-bg: #f8e8e8;
+  --border: #cec6b0;
+  --border2: #b8ae98;
+  --serif: 'Playfair Display', Georgia, serif;
+  --body: 'Lora', Georgia, serif;
+  --mono: 'IBM Plex Mono', 'Courier New', monospace;
+  --radius: 3px;
+  --shadow: 2px 3px 12px rgba(28,26,20,0.08);
+  --shadow-lg: 3px 5px 24px rgba(28,26,20,0.12);
+}
+
+html { font-size: 16px; }
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--body);
+  font-weight: 400;
+  line-height: 1.7;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+}
+
+::selection { background: #c8d9a8; color: var(--ink); }
+
+button { font-family: var(--body); cursor: pointer; }
+textarea, input { font-family: var(--mono); outline: none; }
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes spin { to { transform: rotate(360deg); } }
