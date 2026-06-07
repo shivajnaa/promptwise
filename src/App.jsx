@@ -391,7 +391,7 @@ export default function App() {
               </p>
             </div>
             <a
-              href="https://github.com/your-username/promptwise"
+              href="https://github.com/shivajnaa/promptwise"
               target="_blank" rel="noopener noreferrer"
               style={{
                 fontSize: 12, fontFamily: 'var(--mono)', color: 'var(--ink3)',

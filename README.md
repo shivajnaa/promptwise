@@ -4,8 +4,6 @@
 
 Many tasks given to AI agents can be done with a single shell command, SQL query, or one-liner — using **100x fewer tokens** and measurably less water and energy. PromptWise analyzes your prompt and finds out.
 
-![PromptWise screenshot](./public/screenshot.png)
-
 ## What it does
 
 Paste any task you'd give an AI agent. PromptWise returns one of three honest results:
